@@ -89,8 +89,17 @@
                     </datalist>
                     <label for="zip">Your Zipcode</label>
                     <input type="number" id="zip" name="zip" pattern="[0-9]{5}" title=" 5-Digit US ZIP Code">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd">
+                    <form action="/action_page.php">
+                        <label for="country_code">Country code:</label>
+                        <input type="text" id="country_code" name="country_code"
+                        pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+                        <input type="submit">
+                      </form>
                 </div>
-            </fieldset>
+            </fieldset
+
 
             <fieldset>
                 <legend>Your Preferences</legend>
